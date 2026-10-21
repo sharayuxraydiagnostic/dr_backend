@@ -4,9 +4,9 @@ spring:
     name: munot-hospital
 
   datasource:
-    url: "jdbc:mysql://gateway01.ap-northeast-1.prod.aws.tidbcloud.com:4000/munot_hospital_test?sslMode=REQUIRED&serverTimezone=Asia/Kolkata"
-    username: "2rHzX7LFmBLaBCE.root"
-    password: "LD2iHBVE1bpJCnCu"
+    url: "jdbc:mysql://gateway01.ap-northeast-1.prod.aws.tidbcloud.com:4000/munot_hospital_test"
+    username: "2rHzX7LFmBLaBCe.root"
+    password: "bJxZeeB8QL6M247z"
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -37,7 +37,7 @@ spring:
       mail.smtp.starttls.enable: true
 
 server:
-  port: ${PORT:8080}
+  port: 4000
   error:
     include-message: never
     include-stacktrace: never
