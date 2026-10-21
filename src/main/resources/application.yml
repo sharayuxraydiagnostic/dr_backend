@@ -55,7 +55,7 @@ app:
   seed-demo: false
   admin:
     email: "admin11@gmail.com"
-    password: "REPLACE_WITH_A_STRONG_ADMIN_PASSWORD"
+    password: "Admin12@"
     name: "Hospital Admin"
   jwt:
     secret: "REPLACE_WITH_A_RANDOM_SECRET_AT_LEAST_32_CHARACTERS_LONG"
