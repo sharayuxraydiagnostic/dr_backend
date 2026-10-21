@@ -50,7 +50,7 @@ springdoc:
 
 app:
   timezone: Asia/Kolkata
-  cors-allowed-origins: "http://localhost:5173"
+  cors-allowed-origins: "https://drmunotorthopaediccare.netlify.app"
   upload-dir: ./uploads
   seed-demo: false
   admin:
